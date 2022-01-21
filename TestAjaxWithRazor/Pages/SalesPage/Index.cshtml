@@ -1,12 +1,15 @@
 ﻿@page
 @model TestAjaxWithRazor.Pages.SalesPage.IndexModel
-
+    
+@*Code Sampled from:
+    https://learningprogramming.net/net/asp-net-core-razor-pages/ajax-in-asp-net-core-razor-pages/*@
+    
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
-    <script>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+        <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+        <script>
         $(document).ready(function(){
 
             $('#buttonDemo1').click(function(){
@@ -67,46 +70,46 @@
             });
 
         });
-    </script>
-</head>
-<body>
+        </script>
+    </head>
+    <body>
 
-    <fieldset>
-        <legend>Demo 1</legend>
-        <form>
-            <input type="button" value="Demo 1" id="buttonDemo1" />
-            <br />
-            <span id="result1"></span>
-        </form>
-    </fieldset>
+        <fieldset>
+            <legend>Demo 1</legend>
+            <form>
+                <input type="button" value="Demo 1" id="buttonDemo1" />
+                <br />
+                <span id="result1"></span>
+            </form>
+        </fieldset>
 
-    <fieldset>
-        <legend>Demo 2</legend>
-        <form>
-            <input type="text" id="texboxFullName" />
-            <input type="button" value="Demo 2" id="buttonDemo2" />
-            <br />
-            <span id="result2"></span>
-        </form>
-    </fieldset>
+        <fieldset>
+            <legend>Demo 2</legend>
+            <form>
+                <input type="text" id="texboxFullName" />
+                <input type="button" value="Demo 2" id="buttonDemo2" />
+                <br />
+                <span id="result2"></span>
+            </form>
+        </fieldset>
 
-    <fieldset>
-        <legend>Demo 3</legend>
-        <form>
-            <input type="button" value="Demo 3" id="buttonDemo3" />
-            <br />
-            <span id="result3"></span>
-        </form>
-    </fieldset>
+        <fieldset>
+            <legend>Demo 3</legend>
+            <form>
+                <input type="button" value="Demo 3" id="buttonDemo3" />
+                <br />
+                <span id="result3"></span>
+            </form>
+        </fieldset>
 
-    <fieldset>
-        <legend>Demo 4</legend>
-        <form>
-            <input type="button" value="Demo 4" id="buttonDemo4" />
-            <br />
-            <span id="result4"></span>
-        </form>
-    </fieldset>
+        <fieldset>
+            <legend>Demo 4</legend>
+            <form>
+                <input type="button" value="Demo 4" id="buttonDemo4" />
+                <br />
+                <span id="result4"></span>
+            </form>
+        </fieldset>
 
-</body>
+    </body>
 </html>

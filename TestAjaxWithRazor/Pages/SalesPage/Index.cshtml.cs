@@ -8,6 +8,8 @@ using TestAjaxWithRazor.Models;
 
 namespace TestAjaxWithRazor.Pages.SalesPage
 {
+   //Code Sampled from:
+   // https://learningprogramming.net/net/asp-net-core-razor-pages/ajax-in-asp-net-core-razor-pages/
   public class IndexModel : PageModel
   {
     public void OnGet()
